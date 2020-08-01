@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "BaseModel",
+    "type": "object",
+    "properties": {
+        "_id": {
+            "type": "object",
+            "tsType": "PID"
+        },
+        "deleted": {
+            "type": "boolean"
+        },
+        "createdAt": {
+            "type": "object",
+            "tsType": "Date"
+        },
+        "updatedAt": {
+            "type": "object",
+            "tsType": "Date"
+        }
+    }
+}
